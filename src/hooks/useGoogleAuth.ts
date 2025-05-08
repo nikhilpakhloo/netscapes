@@ -10,7 +10,7 @@ const useGoogleAuth = () => {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     const configureGoogleSignin = () => {
-      const webClientId = process.env.EXPO_PUBLIC_WEB_CLIENT_ID as string;
+      const webClientId = "448783542393-7m5pg9qik4272a6klpeu7qqccknf7qck.apps.googleusercontent.com";
       GoogleSignin.configure({
         webClientId: webClientId,
         offlineAccess: true,

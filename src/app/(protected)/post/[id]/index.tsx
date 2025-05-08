@@ -200,6 +200,8 @@ export default function PostDetailScreen() {
                 value={replyText}
                 onChangeText={setReplyText}
                 multiline
+                placeholderTextColor="#ccc"
+
               />
               <TouchableOpacity
                 style={styles.sendButton}
@@ -224,6 +226,8 @@ export default function PostDetailScreen() {
               value={newComment}
               onChangeText={setNewComment}
               multiline
+              placeholderTextColor="#ccc"
+
             />
             <TouchableOpacity
               style={styles.sendButton}

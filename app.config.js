@@ -4,7 +4,7 @@ module.exports = {
     slug: "insta",
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./assets/images/icon.png",
+    icon: "./assets/images/instagram.png",
     scheme: "insta",
     userInterfaceStyle: "automatic",
     newArchEnabled: true,
@@ -16,7 +16,7 @@ module.exports = {
     },
     android: {
       adaptiveIcon: {
-        foregroundImage: "./assets/images/adaptive-icon.png",
+        foregroundImage: "./assets/images/instagram.png",
         backgroundColor: "#ffffff"
       },
       edgeToEdgeEnabled: true,
@@ -37,7 +37,7 @@ module.exports = {
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/instagram.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
